@@ -1,0 +1,38 @@
+.leftNav{
+    display: flex;
+    align-items: center !important;
+}
+
+.leftNav-arrow{
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.episode-grid {
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center; */
+    align-content: center;
+    padding: 20px;
+}
+
+.sliderCss{
+    padding: 20px;
+}
+.sliderCss1{
+    padding: 40px;
+    padding-top: 0px !important;
+}
+.episodeBtn{
+    background-color: #0091EA !important;
+}
+.episodeClick-link{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}

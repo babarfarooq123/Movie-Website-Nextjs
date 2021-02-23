@@ -1,0 +1,42 @@
+.proMain {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG1XXKaMHX8txWUyIgp7reQXmOafEIFSqlAg&usqp=CAU');
+    width: 100% !important;
+    height: 350px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 780px) {
+    .proMain {
+        height: 250px !important;
+    }
+    .proMainImg {
+        width: 120px !important;
+        height: 120px !important;
+        position: relative;
+        bottom: 60px;
+    }
+}
+
+.proMainImg {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 10px;
+    position: relative;
+    bottom: 75px;
+}
+
+.proMainh4 {
+    /* position: relative;
+    bottom: 65px; */
+    margin-left: 20px;
+    margin-top: -70px;
+}
+
+.profileShow-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

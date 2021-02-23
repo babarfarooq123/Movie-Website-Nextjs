@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.App-body {
+    padding-top: 30px;
+    padding-left: 10px !important;
+    width: 95% !important;
+    margin: 0 auto !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    margin: 0 auto !important;
+}
+
+.poster-images {
+    max-height: 250px;
+    margin-right: 10px;
+    object-fit: contain;
+    transition: transform 500ms;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 750px) {
+    .poster-images {
+        width: 160px !important;
+    }
+}
+
+.movie-title {
+    margin-top: -28px;
+    text-align: left;
+    font-weight: bold;
+    color: #494848;
+}
+
+.textOnImage {
+    position: relative;
+    bottom: 30px;
+    right: 14px;
+    color: white;
+    font-size: 10px;
+    text-shadow: 1px 1px 2px red;
+}
+
+.heart-icon {}
+
+.poster-images:hover {
+    transform: scale(1.08);
+}
+
+.imgDiv {
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.rating {
+    margin-top: -13px;
+    text-align: left;
+    font-weight: 500;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    align-content: center;
+    color: #9B9B9B;
+}

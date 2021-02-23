@@ -1,0 +1,226 @@
+@media only screen and (max-width: 760px) {
+    .img {
+        width: 180px;
+
+        height: 200px;
+        border-radius: 5px !important;
+        margin-left: 0px !important;
+    }
+    /* .navText {
+        font-size: 10px;
+    } */
+    .navText {
+        font-size: 0px !important;
+        font-weight: bolder !important;
+        padding: 2px !important;
+    }
+    .abc {
+        margin-right: 2px !important;
+    }
+    .MuiTypography-body1 {
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+    .text {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .trailer {
+        width: auto;
+        height: auto;
+    }
+    .img{
+        width: 110px;
+        height: 140px;
+        margin-left: 20px;
+    }
+    .header{
+        font-size: 15px;
+    }
+    .headerCont{
+        font-size: 13px;
+    }
+    *{
+        font-size: 15px;
+    }
+    .darkGradient {
+        height: 11.4rem !important;
+        background-image: linear-gradient( 180deg, transparent, rgba(24, 33, 40,0.5), #182128)
+    }
+    .darkGradient1 {
+        height: 11.4rem !important;
+        background-image: linear-gradient( 180deg, transparent, rgba(251, 255, 251, 0.7), #ffff);
+    }
+    .textOnImage-1 {
+        /* position: relative;
+        bottom: 30px;
+        right: -96px;
+        color: white;
+        font-size: 10px; */
+        left: 70px;
+        /* text-shadow: 1px 1px 2px red; */
+    }
+}
+
+.darkGradient {
+    height: 10.4rem ;
+    background-image: linear-gradient( 180deg, transparent, rgba(24, 33, 40,0.5), #182128);
+}
+.darkGradient1 {
+    height: 10.4rem;
+    background-image: linear-gradient( 180deg, transparent, rgba(251, 255, 251, 0.7), #ffff);
+}
+
+.img {
+    border-radius: 5px !important;
+}
+
+.navText {
+    font-size: 80px !important;
+    text-align: center;
+}
+
+.secNavText {
+    margin-right: '10px';
+    margin-left: '10px';
+    /* font-size: 20% !important; */
+    border-bottom: '4px solid #50A8DE' !important;
+}
+
+.rating-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.description-movie {
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    background-color: #ffff !important;
+}
+
+.description-movie-1 {
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    background-color: #252E39 !important;
+}
+
+.tags {
+    display: flex;
+    padding: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.tags p {
+    font-size: 14px;
+    background-color: lightgray;
+    padding: 9px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.tags-1 {
+    display: flex;
+    padding: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.tags-1 p {
+    font-size: 14px;
+    background-color: #3B434D;
+    padding: 9px;
+    border-radius: 30px;
+    margin-right: 10px;
+    color: white;
+}
+
+.time-details {
+    display: flex;
+}
+
+.details-1 {
+    display: block;
+    margin-right: 10px;
+}
+
+.details-2 {
+    display: block;
+    margin-left: 10px;
+}
+
+.trailer-portion {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.trailer {
+    border-radius: 10px;
+}
+
+.related {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.movies-related-title {
+    font-weight: 600;
+    margin-top: -px;
+}
+
+.makeStyles {
+    text-align: left !important;
+    margin-left: 10px !important;
+}
+
+.makeStyles p {
+    line-height: 1.6;
+}
+
+
+/* .abc {} */
+
+.tagsMar {
+    margin-top: -16px;
+}
+
+.body-of-movie {
+    background-color: #FAFAFA !important;
+}
+
+.body-of-movie-1 {
+    background-color: #182128 !important;
+    color: white;
+}
+
+.textOnImage-1 {
+    position: relative;
+    bottom: 30px;
+    right: -96px;
+    color: white;
+    font-size: 10px;
+    /* text-shadow: 1px 1px 2px red; */
+}
+
+.poster-Image{
+    max-height: 250px;
+    margin-right: 10px;
+    object-fit: contain;
+    transition: transform 500ms;
+    border-radius: 4px;
+}

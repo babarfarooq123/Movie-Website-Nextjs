@@ -1,0 +1,121 @@
+.carousel div {
+    background: transparent !important;
+    padding-top: 0px !important;
+}
+
+/* .ne{
+    color: black !important;
+} */
+
+.menu-item {
+    background: transparent !important;
+    background-color: #182128;
+    color: white;
+    border: none !important;
+}
+
+.menu-1 {
+    background-color: #1B222A !important;
+}
+
+.MuiPaper-elevation4 {
+    box-shadow: none !important;
+}
+
+
+
+
+
+/* .shadow {
+    height: 2px;
+    width: 100%;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+} */
+
+.menu1 {
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4); */
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.6) !important;
+    color: black;
+    background-color: white;
+}
+
+
+.active-menu {
+    /* border: 1px solid #0B8DDE; */
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: 4px solid #0B8DDE !important;
+    background: transparent !important;
+    color: #0B8DDE;
+}
+
+.active-menu-1 {
+    /* border: 1px solid #0B8DDE; */
+    /* border-right: none !important;
+    border-left: none !important;
+    border-top: none !important; */
+    border-bottom: 4px solid white !important;
+    /* background: transparent !important;
+    color: #0B8DDE; */
+}
+
+
+/* character click */
+
+.charDown {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center;
+}
+
+.charDown-p1 {
+    margin-right: 10px;
+}
+
+.charDown-p2 {
+    margin-left: 10px;
+}
+
+.charTop {
+    /* margin: 0 auto !important; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.charTop-img1 {
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+    .charTop-img1 {
+        width: 260px;
+        height: 300px;
+    }
+    .charCard {
+        padding-bottom: 10px;
+        width: 70%;
+        margin-left: 10px;
+    }
+    #menu {
+        box-shadow: none;
+        color: white;
+    }
+    .rootmain {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+.charCard {
+    padding-bottom: 10px;
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+.mainCharCard {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
