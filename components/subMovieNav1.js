@@ -10,7 +10,7 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import CommentIcon from '@material-ui/icons/Comment';
 // import {Link} from "react-router-dom"
-import {ReactSwipeNavigation} from 'react-swipe-navigation'
+// import {ReactSwipeNavigation} from 'react-swipe-navigation'
 import MovieBody from "../components/movieBody"
 import Episode from "../components/Episode"
 import Statistics from "../components/statistics"
