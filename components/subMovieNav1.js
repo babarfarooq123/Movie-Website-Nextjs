@@ -80,9 +80,9 @@ function handleTouchEnd() {
     },[clickCounter])
     
 return (
-    <div style={{paddingTop: 0}}>
+    <div style={{paddingTop: 0, backgroundColor: '#182128'}}>
         
-        <div style={{marginBottom: '40px', marginTop: -40, color: 'white', backgroundColor: '#1B222A', display: 'flex', justifyContent: 'space-around', alignItems: 'center', textAlign: 'center', position: 'relative', top: 40, color: 'white'}}><div style={{flex: 1, paddingTop: 30, paddingBottom: 30}} onClick={()=>setClickCounter(0)}>The News</div><div style={{paddingTop: 20, paddingBottom: 20, flex: 1}} onClick={()=>setClickCounter(1)} >Statistics</div><div style={{paddingTop: 20, paddingBottom: 20, flex: 1}} onClick={()=>setClickCounter(2)}>Characters</div></div>
+        <div style={{backgroundColor: '#182128', marginBottom: '40px', marginTop: -40, color: 'white', backgroundColor: '#182128', display: 'flex', justifyContent: 'space-around', alignItems: 'center', textAlign: 'center', position: 'relative', top: 40, color: 'white'}}><div style={{flex: 1, paddingTop: 30, paddingBottom: 30}} onClick={()=>setClickCounter(0)}>The News</div><div style={{paddingTop: 20, paddingBottom: 20, flex: 1}} onClick={()=>setClickCounter(1)} >Statistics</div><div style={{paddingTop: 20, paddingBottom: 20, flex: 1}} onClick={()=>setClickCounter(2)}>Characters</div></div>
 
                 
       <ReactSwipe

@@ -66,9 +66,9 @@ export default function MovieNav({darkModeReal}) {
     let [darkMode, setDarkMode] = useState(true);
 
     return (
-        <div className={darkMode? classes.rootDark:classes.root}>
-               <div style={{backgroundColor: 'white'}}>
-                <AppBar className={darkMode? classes.rootDark:classes.root} position="static">
+        <div className={darkMode? classes.rootDark:classes.root} style={{backgroundColor: '#182128'}}>
+               <div style={{backgroundColor: 'white', backgroundColor: '#182128'}}>
+                <AppBar className={darkMode? classes.rootDark:classes.root} style={{backgroundColor: '#182128'}} position="static">
                     <Toolbar>
                     {/* <IconButton onClick={()=>window.history.back()} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                         <ArrowBackIcon />
