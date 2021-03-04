@@ -134,6 +134,10 @@
     margin-right: 10px;
 }
 
+.tags p:hover{
+    background-color: rgb(226, 223, 223);
+}
+
 .tags-1 {
     display: flex;
     padding: 10px;
@@ -148,6 +152,11 @@
     border-radius: 30px;
     margin-right: 10px;
     color: white;
+    cursor: pointer;
+}
+
+.tags-1 p:hover{
+    background-color: #4d545e;
 }
 
 .time-details {

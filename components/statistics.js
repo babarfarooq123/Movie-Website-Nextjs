@@ -51,7 +51,10 @@ export default function Statistics({darkMode}) {
                 stepSize: 1,
                 beginAtZero: true,
                 fontSize: 13
-            }
+            },
+            barPercentage: 0.4,
+            categoryPercentage: 0.6,
+            barPercentage: 1.0
         }],
         yAxes: [{
             gridLines: {
@@ -92,10 +95,10 @@ export default function Statistics({darkMode}) {
     return (
         <div className="padding">
             <section className={darkMode? "chart-1":"chart"}>
-                <Bar style={darkMode? {backgroundColor:'#252E39'}:''} height='50%' width='100%' data={dataBar} options={option} />
+                <Bar style={darkMode? {backgroundColor:'#252E39'}:''} height='30%' width='60%' data={dataBar} options={option} />
             </section>
             <section className={darkMode? "chart-1":"chart"}>
-                <Doughnut  style={darkMode? {backgroundColor:'#252E39'}:''} height='40%' width='100%' className="margin-top"  data = {dataProvide} options={optionForDoughNut} />
+                <Doughnut  style={darkMode? {backgroundColor:'#252E39'}:''} height='40%' width='80%' className="margin-top"  data = {dataProvide} options={optionForDoughNut} />
             </section>
         </div>
     )

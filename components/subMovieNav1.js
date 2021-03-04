@@ -82,7 +82,7 @@ function handleTouchEnd() {
 return (
     <div style={{paddingTop: 0}}>
         
-        <div style={{marginBottom: '70px', color: 'white', backgroundColor: '#1B222A', display: 'flex', justifyContent: 'space-around', alignItems: 'center', textAlign: 'center', position: 'relative', top: 40, color: 'white'}}><div onClick={()=>setClickCounter(0)}>The News</div><div onClick={()=>setClickCounter(1)} >Statistics</div><div onClick={()=>setClickCounter(2)}>Characters</div></div>
+        <div style={{marginBottom: '40px', marginTop: -40, color: 'white', backgroundColor: '#1B222A', display: 'flex', justifyContent: 'space-around', alignItems: 'center', textAlign: 'center', position: 'relative', top: 40, color: 'white'}}><div style={{flex: 1, paddingTop: 30, paddingBottom: 30}} onClick={()=>setClickCounter(0)}>The News</div><div style={{paddingTop: 20, paddingBottom: 20, flex: 1}} onClick={()=>setClickCounter(1)} >Statistics</div><div style={{paddingTop: 20, paddingBottom: 20, flex: 1}} onClick={()=>setClickCounter(2)}>Characters</div></div>
 
                 
       <ReactSwipe
